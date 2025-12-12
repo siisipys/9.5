@@ -1,0 +1,25 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backend
+backend/vendor/
+backend/.env
+backend/storage/*.key
+backend/*.sqlite
+backend/database/*.sqlite
+backend/bootstrap/cache/*.php
+
+# Frontend
+frontend/.dart_tool/
+frontend/.packages
+frontend/.pub/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies

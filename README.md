@@ -2,14 +2,14 @@
 
 A premium Flutter application with Laravel backend featuring a **Deep Ocean Editorial** design theme.
 
-## 🎨 Design Features
+##  Design Features
 
 - **Typography**: Crimson Pro (headlines) + Libre Franklin (body)
 - **Color Palette**: Deep midnight navy with coral & gold accents
 - **Effects**: Glassmorphism cards, animated backgrounds, staggered animations
 - **Motion**: Floating geometric shapes, scale/glow button effects
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 crud-multi-table-flutter/
@@ -25,7 +25,7 @@ crud-multi-table-flutter/
         └── screens/  # UI screens
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Backend Setup (Laravel)
 
@@ -61,7 +61,7 @@ flutter run
 
 > **Note**: Update API URL in `lib/core/services/api_service.dart` if needed.
 
-## 📱 Screens
+##  Screens
 
 | Screen | Description |
 |--------|-------------|
@@ -72,7 +72,7 @@ flutter run
 | Detail | Product info with owner actions |
 | Form | Create/Edit with premium inputs |
 
-## 🔐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|

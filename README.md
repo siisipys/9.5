@@ -85,4 +85,4 @@ flutter run
 | DELETE | /api/products/{id} | ✅ | Delete product |
 | GET | /api/profile | ✅ | User profile |
 | POST | /api/logout | ✅ | Logout |
-# 9.5
+

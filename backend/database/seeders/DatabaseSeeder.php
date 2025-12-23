@@ -11,12 +11,14 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        // Create demo user
-        $user = User::create([
-            'name' => 'Demo User',
-            'email' => 'demo@example.com',
-            'password' => Hash::make('password123'),
-        ]);
+        // Create or get demo user
+        $user = User::firstOrCreate(
+            ['email' => 'demo@example.com'],
+            [
+                'name' => 'Demo User',
+                'password' => Hash::make('password123'),
+            ]
+        );
 
         // Create sample products
         $products = [
